@@ -5,6 +5,8 @@
   "main": "build/custom-base.js",
   "types": "build/custom-base.d.ts",
   "scripts": {
+    "build": "tsc",
+    "publish":"npm publish . --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
