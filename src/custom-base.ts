@@ -79,11 +79,3 @@ export const CustomElement = (config: CustomElementConfig) => (cls:any) => {
     }
 };
 
-
-
-// window.addEventListener('DOMContentLoaded', () => {
-//     const element = document.querySelector('ce-my-name');
-//     setTimeout(()=> {
-//         element.parentNode.removeChild(element);
-//     }, 2000);
-// });
