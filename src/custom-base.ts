@@ -1,3 +1,9 @@
+/**
+ * @author Mormotomyia
+ * @copyright Mormotomyia 2021
+ */
+
+
 export interface CustomElementConfig {
     selector: string;
     template: string;
