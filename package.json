@@ -20,5 +20,8 @@
     "extending",
     "htmlelement",
     "meta"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.1.4"
+  }
 }
