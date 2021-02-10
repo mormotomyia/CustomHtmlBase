@@ -1,0 +1,13 @@
+{
+  "name": "customhtmlbase",
+  "version": "1.0.0",
+  "description": "This base enables you to subclass any kind of HTMLElement - Videos - Images - whatever you want",
+  "main": "build/custom-base.js",
+  "types": "build/custom-base.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mormotomyia",
+  "license": "MIT",
+  "keywords": ["typescript","extending", "htmlelement","meta"]
+}
