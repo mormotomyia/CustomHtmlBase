@@ -1,3 +1,8 @@
+/**
+ * @author Mormotomyia
+ * @copyright Mormotomyia 2021
+ */
+
 import { CustomElementHTMLConfig,CustomHTMLElement } from "../src/custom-base-html";
 
 
@@ -63,8 +68,14 @@ export class TestCanvas extends HTMLElement{
 
 setTimeout(() => document.getElementsByTagName('body')[0].appendChild(new TestCanvas()),1000)
 
-// setTimeout(() => document.getElementsByTagName('html-test')[0].src = "video",1050)
-// setTimeout(() => document.getElementsByTagName('html-test')[0].play(),1050)
+const getTestCanvas = (): TestCanvas => {
+
+    return <TestCanvas>document.getElementsByTagName('html-test')[0]
+
+}
+
+setTimeout(() => getTestCanvas().src = "video",1050)
+setTimeout(() => getTestCanvas().play(),1050)
 // setTimeout(() => console.log(document.getElementsByTagName('html-test')[0].getElementsByTagName('video')[0].preload="auto"),1000)
 // setTimeout(() => console.log(document.getElementsByTagName('html-test')[0].getElementsByTagName('video')[0].load()),1200)
 

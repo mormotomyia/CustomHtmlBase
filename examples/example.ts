@@ -1,3 +1,8 @@
+/**
+ * @author Mormotomyia
+ * @copyright Mormotomyia 2021
+ */
+
 import { CustomElement,CustomElementConfig } from "../src/custom-base";
 
 
