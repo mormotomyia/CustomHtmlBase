@@ -1,6 +1,6 @@
 {
   "name": "customhtmlbase",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This base enables you to subclass any kind of HTMLElement - Videos - Images - whatever you want",
   "main": "build/all.js",
   "types": "build/all.d.ts",
